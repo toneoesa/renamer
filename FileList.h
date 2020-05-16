@@ -124,6 +124,9 @@ void FileList::preview(int limit)
 		std::cout << "\t\t\t----->\t\t" << (*i).newFullName() << std::endl;
 	}
 	std::cout << "-------END-------" << std::endl;
+	if(limit && files.size()-limit > 0){
+		std::cout << "There are " << files.size() - limit << "file(s) are not showed." << std::endl;
+	}
 }
 
 bool FileList::modify(const std::string &namestr, int begin, int step, int digit)
