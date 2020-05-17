@@ -106,7 +106,7 @@ options:
 
 本程序不处理这类文件，请手动去除这些字符后再执行本程序。
 
-## Inappropriate character in new filename!
+### Inappropriate character in new filename!
 
 原因：使用的文件名包含 `/` 字符
 
@@ -144,7 +144,6 @@ options:
 + 余
 + 张
 
-（姓名不透露）
 # 感谢 cmdline 项目
 
 本项目使用了开源的命令行参数解析库
