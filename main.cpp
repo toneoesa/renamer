@@ -1,3 +1,15 @@
+/*
+	西安电子科技大学
+	TS001001工程概论
+	第20小组
+	刘
+	俞
+	张
+	2020年5月19日
+
+	训练项目，严格测试前，请勿用于正式生产
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <string>
